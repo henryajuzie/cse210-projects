@@ -177,5 +177,11 @@ public class PromptGenerator
     {
         Random random = new Random();
         return Prompts[random.Next(Prompts.Count)];
+        // This program is a journal application that allows users to write entries, display the journal, and save/load entries to/from a CSV file.
+// Advancements beyond the core requirements:
+// - Users can rate their day, provide their location, and describe the weather conditions when writing a new journal entry.
+// - Journal entries are saved and loaded in a CSV format, allowing users to open and analyze their journal in spreadsheet software like Excel.
+// These enhancements provide users with more flexibility and context when journaling, and improve the functionality and usability of the program.
+
     }
 }
