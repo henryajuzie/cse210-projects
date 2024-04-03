@@ -101,5 +101,20 @@ class Program
         simpleGoal.DisplayDetails();
         eternalGoal.DisplayDetails();
         checklistGoal.DisplayDetails();
+         // Sample usage
+        Goal simpleGoal = new SimpleGoal("Run a Marathon", 1000);
+        Goal eternalGoal = new EternalGoal("Read Scriptures", 100);
+        Goal checklistGoal = new ChecklistGoal("Attend Temple", 50, 10);
+
+        // Record events for goals
+        simpleGoal.RecordEvent();
+        eternalGoal.RecordEvent();
+        checklistGoal.RecordEvent();
+
+        // Display goal details
+        simpleGoal.DisplayDetails();
+        eternalGoal.DisplayDetails();
+        checklistGoal.DisplayDetails();
     }
 }
+    
